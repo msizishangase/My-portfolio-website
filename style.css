@@ -42,7 +42,7 @@ h2 {
 }
 
 .icons {
-    display: hidden;
+    display: none;
 }
 
 @media (max-width: 1024px){
