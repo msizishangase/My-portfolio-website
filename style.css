@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@181.5,200..900&family=M+PLUS+Rounded+1c&family=Mukta:wght@200;300;400;500;600;700;800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap');
 
 * {
@@ -42,10 +41,11 @@ h2 {
     height: 100vh;
 }
 
+.icons {
+    display: hidden;
+}
+
 @media (max-width: 1024px){
-
-    /* tablets landscape mode*/
-
     body {
         background-color: #fff;
     }
@@ -63,9 +63,6 @@ h2 {
 }
 
 @media (max-width: 834px){
-
-    /* tablets */
-
     body {
         background-color: #fff;
     }
@@ -83,9 +80,6 @@ h2 {
 }
 
 @media (max-width: 768px){
-
-    /* smartphone landscape mode */
-
     body {
         background-color: #fff; 
     }
@@ -103,8 +97,6 @@ h2 {
 }
 
 @media (max-width:525px) {
-
-    /* smartphone potrait mode */
     body {
         background-color: #fff;
     }
@@ -116,8 +108,6 @@ h2 {
 
 
 @media (max-width:480px) {
-
-    /* smartphone potrait mode */
     .nav {
         display: none;
     }
@@ -137,5 +127,30 @@ h2 {
         text-align: center;
         font-size: 35px;
         margin-left: 20px;
+    }
+
+    .container {
+        max-height: 68vh;
+    }
+
+    .icons {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        color: black;
+    }
+
+    .icons .icon i{
+        color: #535C91;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    footer {
+        width: 100%;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
     }
 }
