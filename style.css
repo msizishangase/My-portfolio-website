@@ -217,11 +217,33 @@ h2 {
         font-size: 25px;
     }
 
+    .btn-download-resume {
+        display: none;
+    }
+
+    .landing-page-info {
+        display: none;
+    }
+    
+    .landing-page-info h1 {
+        display: none;
+    }
+    
+    .landing-page-info h2 {
+        display: none;
+    }
+    
+    .landing-page-info pre {
+        display: none;
+    }
+    
+
     footer {
         width: 100%;
         padding: 20px;
         position: fixed;
         bottom: 0;
         left: 0;
+        background-color: white;
     }
 }
